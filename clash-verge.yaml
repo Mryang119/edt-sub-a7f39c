@@ -29,22 +29,105 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: CF官方优选1, server: 104.19.17.89, port: 2053, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: edgetunnel.1404933237.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edgetunnel.1404933237.workers.dev}}}
-  - {name: CF官方优选2, server: 198.41.209.203, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: edgetunnel.1404933237.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edgetunnel.1404933237.workers.dev}}}
-  - {name: CF官方优选3, server: 104.19.168.60, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: edgetunnel.1404933237.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edgetunnel.1404933237.workers.dev}}}
-  - {name: CF官方优选4, server: 172.66.214.157, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: edgetunnel.1404933237.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edgetunnel.1404933237.workers.dev}}}
-  - {name: CF官方优选5, server: 141.101.113.28, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: edgetunnel.1404933237.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edgetunnel.1404933237.workers.dev}}}
-  - {name: CF官方优选6, server: 104.18.38.86, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: edgetunnel.1404933237.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edgetunnel.1404933237.workers.dev}}}
-  - {name: CF官方优选7, server: 162.159.236.46, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: edgetunnel.1404933237.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edgetunnel.1404933237.workers.dev}}}
-  - {name: CF官方优选8, server: 172.64.150.210, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: edgetunnel.1404933237.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edgetunnel.1404933237.workers.dev}}}
-  - {name: CF官方优选9, server: 104.17.168.13, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: edgetunnel.1404933237.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edgetunnel.1404933237.workers.dev}}}
-  - {name: CF官方优选10, server: 198.41.209.232, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: edgetunnel.1404933237.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edgetunnel.1404933237.workers.dev}}}
-  - {name: CF官方优选11, server: 172.67.163.3, port: 2053, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: edgetunnel.1404933237.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edgetunnel.1404933237.workers.dev}}}
-  - {name: CF官方优选12, server: 162.159.148.4, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: edgetunnel.1404933237.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edgetunnel.1404933237.workers.dev}}}
-  - {name: CF官方优选13, server: 162.159.34.105, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: edgetunnel.1404933237.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edgetunnel.1404933237.workers.dev}}}
-  - {name: CF官方优选14, server: 104.19.58.223, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: edgetunnel.1404933237.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edgetunnel.1404933237.workers.dev}}}
-  - {name: CF官方优选15, server: 104.26.14.158, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: edgetunnel.1404933237.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edgetunnel.1404933237.workers.dev}}}
-  - {name: CF官方优选16, server: 8.39.125.225, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: edgetunnel.1404933237.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edgetunnel.1404933237.workers.dev}}}
+  - {name: CF联通优选1, server: 104.17.132.43, port: 2053, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选2, server: 162.159.158.100, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选3, server: 172.64.151.187, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选4, server: 162.159.158.187, port: 2053, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选5, server: 104.18.33.15, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选6, server: 141.101.113.175, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选7, server: 162.159.148.160, port: 2053, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选8, server: 172.64.229.255, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选9, server: 104.18.38.227, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选10, server: 104.18.33.227, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选11, server: 104.18.33.166, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选12, server: 172.64.159.139, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选13, server: 104.17.137.144, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选14, server: 172.64.151.178, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选15, server: 172.67.251.162, port: 2053, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选16, server: 172.64.159.99, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选17, server: 172.67.251.87, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选18, server: 172.64.156.224, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选19, server: 162.159.138.159, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选20, server: 172.64.67.87, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选21, server: 104.18.42.141, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选22, server: 172.64.159.22, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选23, server: 104.17.154.248, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选24, server: 172.64.229.226, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选25, server: 104.18.41.0, port: 2053, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选26, server: 172.64.159.125, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选27, server: 104.17.154.117, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选28, server: 172.64.154.74, port: 2053, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选29, server: 104.18.33.118, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选30, server: 162.159.152.54, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选31, server: 141.101.113.255, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选32, server: 172.67.251.235, port: 2053, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选33, server: 172.64.159.150, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选34, server: 172.64.159.193, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选35, server: 104.20.30.235, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选36, server: 172.67.68.184, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选37, server: 104.26.9.153, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选38, server: 172.64.154.115, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选39, server: 162.159.148.253, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选40, server: 172.64.83.97, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选41, server: 104.18.41.229, port: 2053, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选42, server: 162.159.152.103, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选43, server: 104.17.140.248, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选44, server: 172.64.151.122, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选45, server: 162.159.152.177, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选46, server: 104.18.38.107, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选47, server: 162.159.138.108, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选48, server: 104.18.33.183, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选49, server: 104.18.41.68, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选50, server: 104.18.39.133, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选51, server: 104.17.136.164, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选52, server: 162.159.236.80, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选53, server: 104.17.140.58, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选54, server: 162.159.148.30, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选55, server: 104.18.33.119, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选56, server: 104.26.9.61, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选57, server: 104.18.38.88, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选58, server: 162.159.236.196, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选59, server: 141.101.113.12, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选60, server: 162.159.152.100, port: 2053, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选61, server: 104.18.33.11, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选62, server: 104.18.33.108, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选63, server: 162.159.158.118, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选64, server: 162.159.236.144, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选65, server: 172.64.159.81, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选66, server: 104.18.38.54, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选67, server: 104.26.1.55, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选68, server: 104.18.41.182, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选69, server: 172.67.251.160, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选70, server: 172.67.251.157, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选71, server: 104.17.140.140, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选72, server: 172.64.67.18, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选73, server: 172.64.83.68, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选74, server: 172.64.67.51, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选75, server: 172.64.159.13, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选76, server: 162.159.236.80, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选77, server: 172.64.156.38, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选78, server: 141.101.113.24, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选79, server: 172.64.156.19, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选80, server: 172.64.229.189, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选81, server: 172.67.75.49, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选82, server: 172.64.156.91, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选83, server: 104.17.136.94, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选84, server: 104.18.42.46, port: 2053, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选85, server: 172.67.72.90, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选86, server: 104.17.136.22, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选87, server: 104.18.41.49, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选88, server: 172.64.67.105, port: 2053, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选89, server: 162.159.152.36, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选90, server: 104.17.136.225, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选91, server: 104.18.42.106, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选92, server: 104.18.41.63, port: 2083, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选93, server: 172.67.65.186, port: 2053, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选94, server: 104.18.38.164, port: 2096, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选95, server: 162.159.138.153, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选96, server: 162.159.152.186, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选97, server: 172.67.251.114, port: 8443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选98, server: 104.18.33.233, port: 2087, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
+  - {name: CF联通优选99, server: 162.159.152.240, port: 443, type: vless, uuid: 4716ad81-f88b-42ed-814a-1ad658c0693e, tls: true, skip-cert-verify: false, servername: mrayng119.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: mrayng119.ccwu.cc}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -53,87 +136,419 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - CF官方优选1
-      - CF官方优选2
-      - CF官方优选3
-      - CF官方优选4
-      - CF官方优选5
-      - CF官方优选6
-      - CF官方优选7
-      - CF官方优选8
-      - CF官方优选9
-      - CF官方优选10
-      - CF官方优选11
-      - CF官方优选12
-      - CF官方优选13
-      - CF官方优选14
-      - CF官方优选15
-      - CF官方优选16
+      - CF联通优选1
+      - CF联通优选2
+      - CF联通优选3
+      - CF联通优选4
+      - CF联通优选5
+      - CF联通优选6
+      - CF联通优选7
+      - CF联通优选8
+      - CF联通优选9
+      - CF联通优选10
+      - CF联通优选11
+      - CF联通优选12
+      - CF联通优选13
+      - CF联通优选14
+      - CF联通优选15
+      - CF联通优选16
+      - CF联通优选17
+      - CF联通优选18
+      - CF联通优选19
+      - CF联通优选20
+      - CF联通优选21
+      - CF联通优选22
+      - CF联通优选23
+      - CF联通优选24
+      - CF联通优选25
+      - CF联通优选26
+      - CF联通优选27
+      - CF联通优选28
+      - CF联通优选29
+      - CF联通优选30
+      - CF联通优选31
+      - CF联通优选32
+      - CF联通优选33
+      - CF联通优选34
+      - CF联通优选35
+      - CF联通优选36
+      - CF联通优选37
+      - CF联通优选38
+      - CF联通优选39
+      - CF联通优选40
+      - CF联通优选41
+      - CF联通优选42
+      - CF联通优选43
+      - CF联通优选44
+      - CF联通优选45
+      - CF联通优选46
+      - CF联通优选47
+      - CF联通优选48
+      - CF联通优选49
+      - CF联通优选50
+      - CF联通优选51
+      - CF联通优选52
+      - CF联通优选53
+      - CF联通优选54
+      - CF联通优选55
+      - CF联通优选56
+      - CF联通优选57
+      - CF联通优选58
+      - CF联通优选59
+      - CF联通优选60
+      - CF联通优选61
+      - CF联通优选62
+      - CF联通优选63
+      - CF联通优选64
+      - CF联通优选65
+      - CF联通优选66
+      - CF联通优选67
+      - CF联通优选68
+      - CF联通优选69
+      - CF联通优选70
+      - CF联通优选71
+      - CF联通优选72
+      - CF联通优选73
+      - CF联通优选74
+      - CF联通优选75
+      - CF联通优选76
+      - CF联通优选77
+      - CF联通优选78
+      - CF联通优选79
+      - CF联通优选80
+      - CF联通优选81
+      - CF联通优选82
+      - CF联通优选83
+      - CF联通优选84
+      - CF联通优选85
+      - CF联通优选86
+      - CF联通优选87
+      - CF联通优选88
+      - CF联通优选89
+      - CF联通优选90
+      - CF联通优选91
+      - CF联通优选92
+      - CF联通优选93
+      - CF联通优选94
+      - CF联通优选95
+      - CF联通优选96
+      - CF联通优选97
+      - CF联通优选98
+      - CF联通优选99
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CF官方优选1
-      - CF官方优选2
-      - CF官方优选3
-      - CF官方优选4
-      - CF官方优选5
-      - CF官方优选6
-      - CF官方优选7
-      - CF官方优选8
-      - CF官方优选9
-      - CF官方优选10
-      - CF官方优选11
-      - CF官方优选12
-      - CF官方优选13
-      - CF官方优选14
-      - CF官方优选15
-      - CF官方优选16
+      - CF联通优选1
+      - CF联通优选2
+      - CF联通优选3
+      - CF联通优选4
+      - CF联通优选5
+      - CF联通优选6
+      - CF联通优选7
+      - CF联通优选8
+      - CF联通优选9
+      - CF联通优选10
+      - CF联通优选11
+      - CF联通优选12
+      - CF联通优选13
+      - CF联通优选14
+      - CF联通优选15
+      - CF联通优选16
+      - CF联通优选17
+      - CF联通优选18
+      - CF联通优选19
+      - CF联通优选20
+      - CF联通优选21
+      - CF联通优选22
+      - CF联通优选23
+      - CF联通优选24
+      - CF联通优选25
+      - CF联通优选26
+      - CF联通优选27
+      - CF联通优选28
+      - CF联通优选29
+      - CF联通优选30
+      - CF联通优选31
+      - CF联通优选32
+      - CF联通优选33
+      - CF联通优选34
+      - CF联通优选35
+      - CF联通优选36
+      - CF联通优选37
+      - CF联通优选38
+      - CF联通优选39
+      - CF联通优选40
+      - CF联通优选41
+      - CF联通优选42
+      - CF联通优选43
+      - CF联通优选44
+      - CF联通优选45
+      - CF联通优选46
+      - CF联通优选47
+      - CF联通优选48
+      - CF联通优选49
+      - CF联通优选50
+      - CF联通优选51
+      - CF联通优选52
+      - CF联通优选53
+      - CF联通优选54
+      - CF联通优选55
+      - CF联通优选56
+      - CF联通优选57
+      - CF联通优选58
+      - CF联通优选59
+      - CF联通优选60
+      - CF联通优选61
+      - CF联通优选62
+      - CF联通优选63
+      - CF联通优选64
+      - CF联通优选65
+      - CF联通优选66
+      - CF联通优选67
+      - CF联通优选68
+      - CF联通优选69
+      - CF联通优选70
+      - CF联通优选71
+      - CF联通优选72
+      - CF联通优选73
+      - CF联通优选74
+      - CF联通优选75
+      - CF联通优选76
+      - CF联通优选77
+      - CF联通优选78
+      - CF联通优选79
+      - CF联通优选80
+      - CF联通优选81
+      - CF联通优选82
+      - CF联通优选83
+      - CF联通优选84
+      - CF联通优选85
+      - CF联通优选86
+      - CF联通优选87
+      - CF联通优选88
+      - CF联通优选89
+      - CF联通优选90
+      - CF联通优选91
+      - CF联通优选92
+      - CF联通优选93
+      - CF联通优选94
+      - CF联通优选95
+      - CF联通优选96
+      - CF联通优选97
+      - CF联通优选98
+      - CF联通优选99
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - CF官方优选1
-      - CF官方优选2
-      - CF官方优选3
-      - CF官方优选4
-      - CF官方优选5
-      - CF官方优选6
-      - CF官方优选7
-      - CF官方优选8
-      - CF官方优选9
-      - CF官方优选10
-      - CF官方优选11
-      - CF官方优选12
-      - CF官方优选13
-      - CF官方优选14
-      - CF官方优选15
-      - CF官方优选16
+      - CF联通优选1
+      - CF联通优选2
+      - CF联通优选3
+      - CF联通优选4
+      - CF联通优选5
+      - CF联通优选6
+      - CF联通优选7
+      - CF联通优选8
+      - CF联通优选9
+      - CF联通优选10
+      - CF联通优选11
+      - CF联通优选12
+      - CF联通优选13
+      - CF联通优选14
+      - CF联通优选15
+      - CF联通优选16
+      - CF联通优选17
+      - CF联通优选18
+      - CF联通优选19
+      - CF联通优选20
+      - CF联通优选21
+      - CF联通优选22
+      - CF联通优选23
+      - CF联通优选24
+      - CF联通优选25
+      - CF联通优选26
+      - CF联通优选27
+      - CF联通优选28
+      - CF联通优选29
+      - CF联通优选30
+      - CF联通优选31
+      - CF联通优选32
+      - CF联通优选33
+      - CF联通优选34
+      - CF联通优选35
+      - CF联通优选36
+      - CF联通优选37
+      - CF联通优选38
+      - CF联通优选39
+      - CF联通优选40
+      - CF联通优选41
+      - CF联通优选42
+      - CF联通优选43
+      - CF联通优选44
+      - CF联通优选45
+      - CF联通优选46
+      - CF联通优选47
+      - CF联通优选48
+      - CF联通优选49
+      - CF联通优选50
+      - CF联通优选51
+      - CF联通优选52
+      - CF联通优选53
+      - CF联通优选54
+      - CF联通优选55
+      - CF联通优选56
+      - CF联通优选57
+      - CF联通优选58
+      - CF联通优选59
+      - CF联通优选60
+      - CF联通优选61
+      - CF联通优选62
+      - CF联通优选63
+      - CF联通优选64
+      - CF联通优选65
+      - CF联通优选66
+      - CF联通优选67
+      - CF联通优选68
+      - CF联通优选69
+      - CF联通优选70
+      - CF联通优选71
+      - CF联通优选72
+      - CF联通优选73
+      - CF联通优选74
+      - CF联通优选75
+      - CF联通优选76
+      - CF联通优选77
+      - CF联通优选78
+      - CF联通优选79
+      - CF联通优选80
+      - CF联通优选81
+      - CF联通优选82
+      - CF联通优选83
+      - CF联通优选84
+      - CF联通优选85
+      - CF联通优选86
+      - CF联通优选87
+      - CF联通优选88
+      - CF联通优选89
+      - CF联通优选90
+      - CF联通优选91
+      - CF联通优选92
+      - CF联通优选93
+      - CF联通优选94
+      - CF联通优选95
+      - CF联通优选96
+      - CF联通优选97
+      - CF联通优选98
+      - CF联通优选99
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - CF官方优选1
-      - CF官方优选2
-      - CF官方优选3
-      - CF官方优选4
-      - CF官方优选5
-      - CF官方优选6
-      - CF官方优选7
-      - CF官方优选8
-      - CF官方优选9
-      - CF官方优选10
-      - CF官方优选11
-      - CF官方优选12
-      - CF官方优选13
-      - CF官方优选14
-      - CF官方优选15
-      - CF官方优选16
+      - CF联通优选1
+      - CF联通优选2
+      - CF联通优选3
+      - CF联通优选4
+      - CF联通优选5
+      - CF联通优选6
+      - CF联通优选7
+      - CF联通优选8
+      - CF联通优选9
+      - CF联通优选10
+      - CF联通优选11
+      - CF联通优选12
+      - CF联通优选13
+      - CF联通优选14
+      - CF联通优选15
+      - CF联通优选16
+      - CF联通优选17
+      - CF联通优选18
+      - CF联通优选19
+      - CF联通优选20
+      - CF联通优选21
+      - CF联通优选22
+      - CF联通优选23
+      - CF联通优选24
+      - CF联通优选25
+      - CF联通优选26
+      - CF联通优选27
+      - CF联通优选28
+      - CF联通优选29
+      - CF联通优选30
+      - CF联通优选31
+      - CF联通优选32
+      - CF联通优选33
+      - CF联通优选34
+      - CF联通优选35
+      - CF联通优选36
+      - CF联通优选37
+      - CF联通优选38
+      - CF联通优选39
+      - CF联通优选40
+      - CF联通优选41
+      - CF联通优选42
+      - CF联通优选43
+      - CF联通优选44
+      - CF联通优选45
+      - CF联通优选46
+      - CF联通优选47
+      - CF联通优选48
+      - CF联通优选49
+      - CF联通优选50
+      - CF联通优选51
+      - CF联通优选52
+      - CF联通优选53
+      - CF联通优选54
+      - CF联通优选55
+      - CF联通优选56
+      - CF联通优选57
+      - CF联通优选58
+      - CF联通优选59
+      - CF联通优选60
+      - CF联通优选61
+      - CF联通优选62
+      - CF联通优选63
+      - CF联通优选64
+      - CF联通优选65
+      - CF联通优选66
+      - CF联通优选67
+      - CF联通优选68
+      - CF联通优选69
+      - CF联通优选70
+      - CF联通优选71
+      - CF联通优选72
+      - CF联通优选73
+      - CF联通优选74
+      - CF联通优选75
+      - CF联通优选76
+      - CF联通优选77
+      - CF联通优选78
+      - CF联通优选79
+      - CF联通优选80
+      - CF联通优选81
+      - CF联通优选82
+      - CF联通优选83
+      - CF联通优选84
+      - CF联通优选85
+      - CF联通优选86
+      - CF联通优选87
+      - CF联通优选88
+      - CF联通优选89
+      - CF联通优选90
+      - CF联通优选91
+      - CF联通优选92
+      - CF联通优选93
+      - CF联通优选94
+      - CF联通优选95
+      - CF联通优选96
+      - CF联通优选97
+      - CF联通优选98
+      - CF联通优选99
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -153,22 +568,105 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - CF官方优选1
-      - CF官方优选2
-      - CF官方优选3
-      - CF官方优选4
-      - CF官方优选5
-      - CF官方优选6
-      - CF官方优选7
-      - CF官方优选8
-      - CF官方优选9
-      - CF官方优选10
-      - CF官方优选11
-      - CF官方优选12
-      - CF官方优选13
-      - CF官方优选14
-      - CF官方优选15
-      - CF官方优选16
+      - CF联通优选1
+      - CF联通优选2
+      - CF联通优选3
+      - CF联通优选4
+      - CF联通优选5
+      - CF联通优选6
+      - CF联通优选7
+      - CF联通优选8
+      - CF联通优选9
+      - CF联通优选10
+      - CF联通优选11
+      - CF联通优选12
+      - CF联通优选13
+      - CF联通优选14
+      - CF联通优选15
+      - CF联通优选16
+      - CF联通优选17
+      - CF联通优选18
+      - CF联通优选19
+      - CF联通优选20
+      - CF联通优选21
+      - CF联通优选22
+      - CF联通优选23
+      - CF联通优选24
+      - CF联通优选25
+      - CF联通优选26
+      - CF联通优选27
+      - CF联通优选28
+      - CF联通优选29
+      - CF联通优选30
+      - CF联通优选31
+      - CF联通优选32
+      - CF联通优选33
+      - CF联通优选34
+      - CF联通优选35
+      - CF联通优选36
+      - CF联通优选37
+      - CF联通优选38
+      - CF联通优选39
+      - CF联通优选40
+      - CF联通优选41
+      - CF联通优选42
+      - CF联通优选43
+      - CF联通优选44
+      - CF联通优选45
+      - CF联通优选46
+      - CF联通优选47
+      - CF联通优选48
+      - CF联通优选49
+      - CF联通优选50
+      - CF联通优选51
+      - CF联通优选52
+      - CF联通优选53
+      - CF联通优选54
+      - CF联通优选55
+      - CF联通优选56
+      - CF联通优选57
+      - CF联通优选58
+      - CF联通优选59
+      - CF联通优选60
+      - CF联通优选61
+      - CF联通优选62
+      - CF联通优选63
+      - CF联通优选64
+      - CF联通优选65
+      - CF联通优选66
+      - CF联通优选67
+      - CF联通优选68
+      - CF联通优选69
+      - CF联通优选70
+      - CF联通优选71
+      - CF联通优选72
+      - CF联通优选73
+      - CF联通优选74
+      - CF联通优选75
+      - CF联通优选76
+      - CF联通优选77
+      - CF联通优选78
+      - CF联通优选79
+      - CF联通优选80
+      - CF联通优选81
+      - CF联通优选82
+      - CF联通优选83
+      - CF联通优选84
+      - CF联通优选85
+      - CF联通优选86
+      - CF联通优选87
+      - CF联通优选88
+      - CF联通优选89
+      - CF联通优选90
+      - CF联通优选91
+      - CF联通优选92
+      - CF联通优选93
+      - CF联通优选94
+      - CF联通优选95
+      - CF联通优选96
+      - CF联通优选97
+      - CF联通优选98
+      - CF联通优选99
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -178,22 +676,105 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - CF官方优选1
-      - CF官方优选2
-      - CF官方优选3
-      - CF官方优选4
-      - CF官方优选5
-      - CF官方优选6
-      - CF官方优选7
-      - CF官方优选8
-      - CF官方优选9
-      - CF官方优选10
-      - CF官方优选11
-      - CF官方优选12
-      - CF官方优选13
-      - CF官方优选14
-      - CF官方优选15
-      - CF官方优选16
+      - CF联通优选1
+      - CF联通优选2
+      - CF联通优选3
+      - CF联通优选4
+      - CF联通优选5
+      - CF联通优选6
+      - CF联通优选7
+      - CF联通优选8
+      - CF联通优选9
+      - CF联通优选10
+      - CF联通优选11
+      - CF联通优选12
+      - CF联通优选13
+      - CF联通优选14
+      - CF联通优选15
+      - CF联通优选16
+      - CF联通优选17
+      - CF联通优选18
+      - CF联通优选19
+      - CF联通优选20
+      - CF联通优选21
+      - CF联通优选22
+      - CF联通优选23
+      - CF联通优选24
+      - CF联通优选25
+      - CF联通优选26
+      - CF联通优选27
+      - CF联通优选28
+      - CF联通优选29
+      - CF联通优选30
+      - CF联通优选31
+      - CF联通优选32
+      - CF联通优选33
+      - CF联通优选34
+      - CF联通优选35
+      - CF联通优选36
+      - CF联通优选37
+      - CF联通优选38
+      - CF联通优选39
+      - CF联通优选40
+      - CF联通优选41
+      - CF联通优选42
+      - CF联通优选43
+      - CF联通优选44
+      - CF联通优选45
+      - CF联通优选46
+      - CF联通优选47
+      - CF联通优选48
+      - CF联通优选49
+      - CF联通优选50
+      - CF联通优选51
+      - CF联通优选52
+      - CF联通优选53
+      - CF联通优选54
+      - CF联通优选55
+      - CF联通优选56
+      - CF联通优选57
+      - CF联通优选58
+      - CF联通优选59
+      - CF联通优选60
+      - CF联通优选61
+      - CF联通优选62
+      - CF联通优选63
+      - CF联通优选64
+      - CF联通优选65
+      - CF联通优选66
+      - CF联通优选67
+      - CF联通优选68
+      - CF联通优选69
+      - CF联通优选70
+      - CF联通优选71
+      - CF联通优选72
+      - CF联通优选73
+      - CF联通优选74
+      - CF联通优选75
+      - CF联通优选76
+      - CF联通优选77
+      - CF联通优选78
+      - CF联通优选79
+      - CF联通优选80
+      - CF联通优选81
+      - CF联通优选82
+      - CF联通优选83
+      - CF联通优选84
+      - CF联通优选85
+      - CF联通优选86
+      - CF联通优选87
+      - CF联通优选88
+      - CF联通优选89
+      - CF联通优选90
+      - CF联通优选91
+      - CF联通优选92
+      - CF联通优选93
+      - CF联通优选94
+      - CF联通优选95
+      - CF联通优选96
+      - CF联通优选97
+      - CF联通优选98
+      - CF联通优选99
 rules:
   - DOMAIN-SUFFIX,play.googleapis.com,🚀 节点选择
   - DOMAIN-SUFFIX,play-fe.googleapis.com,🚀 节点选择
